@@ -21,10 +21,10 @@ print("-----------------------------")
 # задание 3 свойства массивов
 scores = np.array([85, 90, 78, 92, 88])
 print(scores)
-print("Сумма всех оценок:", scores.sum())
-print("Среднее значение:", scores.mean())
-print("Максимальное число:", scores.max())
-print("Минимальное число:", scores.min())
+print("Сумма всех оценок:", np.sum(scores))
+print("Среднее значение:", np.mean(scores))
+print("Максимальное число:", np.max(scores))
+print("Минимальное число:", np.min(scores))
 print("-----------------------------")
 
 # задание 4 изменение массивов
