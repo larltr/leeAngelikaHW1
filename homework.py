@@ -1,9 +1,9 @@
 import numpy as np
 
 # задание 1 создание массива
-numbers = list(range(1, 11))
-even_numbers = [2, 4, 6, 8, 10]
-print(numbers, even_numbers)
+numbers = np.arange(1, 11)
+bro_numbers = np.arange(2, 11, 2) #с шагом 2
+print(numbers, bro_numbers)
 print("-----------------------------")
 
 # задание 2 простые операции
